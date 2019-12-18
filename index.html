@@ -40,10 +40,10 @@
 						<li class="active"><a href="#home">Introduction</a></li>
 						<li><a href="#overview">Overview</a></li>
 						<li><a href="#hardware">Hardware</a></li>
-						<li><a href="#products">Software</a></li>
-						<li><a href="#contact">Results</a></li>
-						<li><a href="#products">Conclusion</a></li>
-						<li><a href="#contact">Appendix</a></li>
+						<li><a href="#software">Software</a></li>
+						<li><a href="#results">Results</a></li>
+						<li><a href="#conclusion">Conclusion</a></li>
+						<li><a href="#appendix">Appendix</a></li>
 					</ul>
 				</nav>
 				<h1 class="templatemo-site-name">
@@ -198,29 +198,31 @@
 						<p class="margin-top-30">Tape: The handle is stylized with various types of tape. First, the entire handle was wrapped with grey duct tape, giving it its predominant silver color. Next, we add black grips with blakc electrical tape. Lastly, we use bronze copper tape to accent the adaptor.</p>
 
 						<h2 class="templatemo-white">
-						<span class="templatemo-section-title">Interior <span class="templatemo-gold"><strong>Circuits</strong></span></span>
+						<span class="templatemo-section-title">Interior <span class="templatemo-gold">Circuits</span></span>
 						</h2>
 						<p class="margin-top-30">Within the handle is a microcontroller board and a solder board. These two boards are hot glued together.
 						Microcontroller: Our project uses the PIC32MX microcontroller. The board design is provided through the ECE 4760 course, and is referred to as <a href="http://people.ece.cornell.edu/land/courses/ece4760/PIC32/target_board.html">Sean Caroll's Little board (SECALB).</a></p>
 						<p class="margin-top-30">Solder Board: Adjacent to the microcontroller board is a solder board with most of the system’s peripherals. See the appendix for a schematic of the system</p>
-						<ul><a href="https://www.adafruit.com/product/987?gclid=Cj0KCQiA89zvBRDoARIsAOIePbAX0pCeGZr1tbbicmUZZkeSyxofDTjmfcLI5JrYnEvv4whp4a1ug1saAgC5EALw_wcB">Amplifier</a> - to amplify the audio for our system, we use Adafruit’s 3.7W Class D Amplifier.</ul>
-						<ul><a href="https://www.microchip.com/wwwproducts/en/MCP4822">DAC</a> - we use a digital to analog converter to convert the digital synthesis into analog values for the amplifier. We use the MCP4822.</ul>
-						<ul><a href="https://www.amazon.com/HiLetgo-MPU-6050-Accelerometer-Gyroscope-Converter/dp/B01DK83ZYQ/ref=sr_1_1_sspa?keywords=Adafruit+MPU6050&qid=1576564186&s=industrial&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOU9ORlFDUjJKMzVKJmVuY3J5cHRlZElkPUEwOTk0MTg5UjlRTkhTWFdLQUc2JmVuY3J5cHRlZEFkSWQ9QTA3ODM3MDIyMUJJQzU1WjFJNTJZJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">MPU6050</a> - to measure the angle of the lightsaber, we use Adafruit’s Triple-Axis Accelerometer</ul>
+						<p><a href="https://www.adafruit.com/product/987?gclid=Cj0KCQiA89zvBRDoARIsAOIePbAX0pCeGZr1tbbicmUZZkeSyxofDTjmfcLI5JrYnEvv4whp4a1ug1saAgC5EALw_wcB">Amplifier</a> - to amplify the audio for our system, we use Adafruit’s 3.7W Class D Amplifier.</p>
+						<p><a href="https://www.microchip.com/wwwproducts/en/MCP4822">DAC</a> - we use a digital to analog converter to convert the digital synthesis into analog values for the amplifier. We use the MCP4822.</p>
+						<p><a href="https://www.amazon.com/HiLetgo-MPU-6050-Accelerometer-Gyroscope-Converter/dp/B01DK83ZYQ/ref=sr_1_1_sspa?keywords=Adafruit+MPU6050&qid=1576564186&s=industrial&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOU9ORlFDUjJKMzVKJmVuY3J5cHRlZElkPUEwOTk0MTg5UjlRTkhTWFdLQUc2JmVuY3J5cHRlZEFkSWQ9QTA3ODM3MDIyMUJJQzU1WjFJNTJZJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">MPU6050</a> - to measure the angle of the lightsaber, we use Adafruit’s Triple-Axis Accelerometer</p>
 						<ul>Level shifter - we use the DM74L1S to convert the 3V signal from the microcontroller to 5V signals needed to control the LEDs.</ul>
 
 						<h2 class="templatemo-white">
-						<span class="templatemo-section-title">Exterior <span class="templatemo-gold"><strong>Components</strong></span></span>
+						<span class="templatemo-section-title">Exterior <span class="templatemo-gold">Components</span></span>
 						</h2>
 						<p class="margin-top-30">Power: Our system has two portable charges, either of which can power the system. There is an internal power bank that we were given from a friend. It is a standard 5V 1A phone portable charger. The black cable is used to charge this internal powerbank. Next, there is also an external power supply. On the lightsaber, this looks like a lump on the hilt of the lightsaber. This is a larger 5V 2A portable charger. It is secured to the handle with duct tape. The white cable connects this portable charger to the system. Typically the internal power supply can only power the system for about a minute. The external power supply can power the system for over 30 minutes. </p>
 						<p class="margin-top-30">Speaker: The speaker is placed at the bottom of the lightsaber hilt. This allows the sound to emanate without obstruction. The handle’s interior also echoes sounds emanated from the speaker slightly. This creates a spooky effect. We chose to use a small 1 ohm speaker like the one found <a href="https://www.adafruit.com/product/1313">here.</a> The speaker is fixed to the rear of the handle with duct tape.</p>
 						<p class="margin-top-30">Switches and buttons: There is a silver switch near the bottom of the lightsaber hilt. This switch toggles the power supply used to power the system. There is a red button opposite of the silver switch. This button toggles the state operating state of the lightsaber: off, normal, square, star wars, party. The switch and button are fixed with hot glue.</p>
+
+
 
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="products" class="templatemo-section">
+	<section id="software" class="templatemo-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
@@ -229,6 +231,56 @@
 							<span class="templatemo-section-title">Software <span class="templatemo-gold">Design</span></span>
 						</h2>
 						<p class="margin-top-30">The software design consists of three simple threads; ISR thread, I2C thread and the main control thread. The job of the ISR thread is to create a sine wave in an envelope to produce the sound for start up and the regular buzz noise that changes with movement. The I2C thread continuously scans for the values from the IMU unit and stores the values for the acceleration and gyroscope in the three axis and also computes the pitch. The last control thread is used to scan for the button press and toggle between modes and set the LED colours using SPI protocol as per the mode we are in.</p>
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-gold">ISR Thread</span>
+						</h2>
+						<p class="margin-top-30">This part of the code runs at a frequency of 44 kHz and updates the DAC output as commanded by the user. Variables DDS_Phase and DDS_Increment are updated at every cycle of the ISR by looking up the sine table for the frequency specified by the user. In case of no sound both the variables are set to zero. However, use of this produces just a simple sine wave at a certain frequency and that can be used for the frequency test mode. The use of this uniform sine wave is not so pleasing to the ear and hence, we modulated the wave to produce a sound closer to that you hear from a light saber as in the movies. This can be done by sending the sine wave through an envelope with a very sharp sustain time, and a longer rise and delay time , and setting the frequency to 110 Hz. Also, a second frequency, which is two times the original, is embedded into the sine wave with the equation:</p>
+						<p class="margin-top-30" align="center">wave = envelopemain * sin(Fmain*t + envelopefm*(sin(Ffm*t)))</p>
+						<p class="margin-top-30">The variables FM_DDS_phase and FM_DDS_increment are also updated with each cycle for the FM synthesis. </p>
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-gold">I2C thread</span>
+						</h2>
+						<p class="margin-top-30">The MPU-6050 devices combine a 3-axis gyroscope and a 3-axis accelerometer on the same silicon die. This device communicates the values using I2C protocol. We have used the ‘i2c_helper.h’ library written and used by students in previous projects over the last few years. We have set up the i2c protocol in the main function at a clock of 400 kHz and have called the i2c thread to continuously scan and read the values from the MPU6050 peripheral. These values are then stored in a global variable for the rest of the threads to use. We also calculated the value of pitch in this thread and saved it to a global variable. Pitch gives us the angle at which the set up is raised. In order to produce an image with persistence of vision it is essential to know the angle the light saber makes with the Z-axis. This pitch is calculated using the formula: </p>
+						<p class="margin-top-30" align="center">pitch = 180 * atan2(accelX, sqrt(accelY*accelY + accelZ*accelZ))/PI;</p>
+						<p class="margin-top-30">However, the accelerometer values produced by the MPU peripheral are known to be very dynamic and hence we implemented a digital low pass filter to couple it with the gyroscope values to use in the formula and came up with the following snippet of code:</p>
+						<p class="margin-top-30" align="center">accum_values[0] = accum_values[0]*0.75 + .25* values[0]/MAX_G_VALUE;<br>
+		        accum_values[1] = accum_values[1]*0.75 + .25* values[1]/MAX_G_VALUE;<br>
+		        accum_values[2] = accum_values[2]*0.75 + .25* values[2]/MAX_G_VALUE;<br>
+
+
+
+		         pitch = atan2((-accum_values[1]) , sqrt(accum_values[0] * accum_values[0] + accum_values[2] * accum_values[2]));//computes the pitch</p>
+
+						 <h2 class="templatemo-white">
+ 							<span class="templatemo-gold">SPI: LED</span>
+ 						</h2>
+ 						<p class="margin-top-30">The Dot-star pixel strip we are using for the project communicates using the SPI protocol. The software for the same was already written by Prof Bruce Land and available on the course website which we implemented and changed it to our convenience. First we set up the SPI channel 2 for the LED strip with RB5 as the data out pin. The functions to write led onto the led strip take the HSV components for the light color and the index i (ranging from 0 to 143) for the position of the LED to light up. Although a similar function that takes RGB values is included in the code we have made use of HSV only. </p>
+
+						 <h2 class="templatemo-white">
+						 <span class="templatemo-gold">Control Thread</span>
+						 </h2>
+						 <p class="margin-top-30">The control thread runs in a loop with a time delay of 2 mS. The loop starts with checking for a button press on the pin A0. This button press toggles between the five modes we have; OFF, start up, Square, Star wars and party mode. Each of the modes has its own functioning and color configuration to light up the LED strip.
+
+						 </p><p>OFF mode: In this mode we simply set h,s,v to zero so the light saber isn’t turned on.
+
+							 </p><p>Start up mode: Here, we turn on the LED strip two LEDs at a time over a few loops. This produces an effect similar to that in the movies where the Lightsaber turns on like a laser. The sound effects are also coupled with the light effects by increasing the frequency of the envelope slowly with time and then dropping it to produce a regular buzz as the startup sequence completes. The sound effects from this mode on change with the changing gyro values. This is done to produce an effect similar to that of a swift sword movement in air.
+
+								 </p><p>Square mode: In this mode, we want the strip to take the lights based on the position of the lightsaber in air. We imagine a picture of around 125 x 125 pixel in the air. The lightsaber can then be imagined to be making a line on this image. We simply calculate the position of the lightsaber with respect to the image and set up the lights accordingly. In both the square and the star wars mode we compute the cosine and sine values of the pitch angle. This is then multiplied by the LED index we are setting up and check whether the LED index falls inside the expected square or outside and set the color to white or red accordingly.
+
+									 </p><p>Star Wars: Similar to the square mode but we have an array of the image pre determined using a Python script. Here too, we calculate the position of each LED in the strip w.r.t the image array and write the HSV values accordingly.
+
+										 </p><p>Party: We have a sine table created at the beginning of the thread startup to store the range of h in a sinusoidal order. Using these values in tandem with the position of the LED produces a moving rainbow colors on the LED strip.
+
+</p>
+
+							<h2 class="templatemo-white">
+							 <span class="templatemo-gold">Image Array</span>
+							</h2>
+							<p class="margin-top-30">We wrote a simple python script using ‘OpenCV' library to read an image, convert the dimensions to 125 X 125. This image is then filtered to produce either of the two colors, red or white, for each pixel. This is done so that we only change h component while keeping the s and v uniform throughout and save the memory needed to store the image. The filtered image is then stored in a text file to produce an array of 125 X 125 chars of either 0 or 255. The output text file is then stored and used in the main .c file. </p>
+
+
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
@@ -266,45 +318,982 @@
 			</div>
 		</div>
 	</section>
-	<section id="contact" class="templatemo-section">
+
+	<section id="results" class="templatemo-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
-					<div class="templatemo-flex-center templatemo-black-bg">
-						<form action="#" method="post">
-							<div class="tm-contact-form">
-				                <div class="form-group">
-				                    <input type="text" id="contact_name" class="form-control" placeholder="Name..." />
-				                </div>
-				                <div class="form-group">
-				                    <input type="email" id="contact_email" class="form-control" placeholder="Email..." />
-				                </div>
-				                <div class="form-group">
-				                    <input type="text" id="contact_subject" class="form-control" placeholder="Subject..." />
-				                </div>
-				                <div class="form-group">
-				                    <textarea id="contact_message" class="form-control" rows="8" placeholder="Message..."></textarea>
-				                </div>
-			                </div>
-			                <button type="submit" class="btn text-uppercase templatemo-btn templatemo-send-btn">Send</button>
-			            </form>
+					<div class="templatemo-flex-center templatemo-black-bg text-center">
+						<div class="templatemo-flex-center templatemo-white-rectangle-bg">
+							<div class="templatemo-flex-item-ie-fix padding-30">
+								<h2 class="templatemo-gold">Our Plans</h2>
+								<div class="templatemo-service-container margin-top-15">
+									<img src="images/plan-1.png" alt="Plan 1" class="templatemo-service-image">
+									<div class="templatemo-service-content text-left">
+										<h3 class="templatemo-service-title templatemo-white">duis sed odio sit amet</h3>
+										<p class="templatemo-service-description">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+									</div>
+								</div>
+								<div class="templatemo-service-container">
+									<img src="images/plan-2.png" alt="Plan 2" class="templatemo-service-image">
+									<div class="templatemo-service-content text-left">
+										<h3 class="templatemo-service-title templatemo-white">sagittis sem nibhd</h3>
+										<p class="templatemo-service-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat.</p>
+									</div>
+								</div>
+								<div class="templatemo-service-container">
+									<img src="images/plan-3.png" alt="Plan 3" class="templatemo-service-image">
+									<div class="templatemo-service-content text-left">
+										<h3 class="templatemo-service-title templatemo-white">duis sed odio sit amet</h3>
+										<p class="templatemo-service-description">Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<div class="templatemo-content-box templatemo-second-box">
-						<h2 class="templatemo-white">Get In <span class="templatemo-gold">Touch</span></h2>
-						<p class="margin-top-30">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio nisi elit consequat ipsum, nec sagittis sem nibh id elit. . </p>
-						<div>
-							<img src="images/social-icons.png" alt="Social icons" class="templatemo-social-icons-img">
-							<a href="http://www.facebook.com"><div id="facebook" class="templatemo-social-icon"></div></a>
-							<a href="http://www.twitter.com"><div id="twitter" class="templatemo-social-icon"></div></a>
-							<a href="http://plus.google.com"><div id="google" class="templatemo-social-icon"></div></a>
-							<a href="http://www.vimeo.com"><div id="vimeo" class="templatemo-social-icon"></div></a>
-							<a href="http://www.flickr.com"><div id="flickr" class="templatemo-social-icon"></div></a>
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Results</span>
+						</h2>
+						<p class="margin-top-30">We have been successful in implementing all the components discussed so far in the project. More specifically, we were able to have a start up sequence as close to as seen in the movies (both light and sound effects), produce two different modes of persistence of vision where we can see two images; a square and a star wars logo. And finally, a party mode where we show the entire spectrum of the colors that could be produced with a dot star LED strip.</p>
+
+						<p class="margin-top-30">Although we had hiccups at every step of the project, they were all solved by systematically debugging. The final product is a set up of a PVC pipe (forming the handle) enclosing a polycarbonate tube within which is laid out LED strip. The PVC pipe holds inside the rest of the circuit; a project board embedded with MPU6050, DAC converter, 74LS125 converter, and an audio amplifier along with the PIC32 small board. The power switch and the push button are extended out to the open through holes at the bottom end of the handle. The speaker is set at the base of the handle to produce an echoed sound. </p>
+						<p class="margin-top-30">The first prototype of the circuit was made on a breadboard in connection with a PIC32 big board. However, switching the big board with the small board required some changes to the code in tandem with the difference in the connections on the board. Further, we then replaced the breadboard with a project board in a size that could slide into the PVC pipe. With the intent of minimizing the size of the circuitry we have done everything in our capabilities from cutting the project board, sanding the amplifier edges, aligning the wires and checking the measurements of the peripherals at every step. </p>
+						<p class="margin-top-30">The software for the project was built in an orderly fashion. First, the structural code for setting the LED strip was worked out. This was to ensure any tests from hereon produced perceivable results. Next, we worked on setting up the Accelerometer and varying the LED colors with the movement in the x axis. At the same time, we worked with the code from lab 1 to produce sound effects similar to the movies using ISR. Once, all the individual modules were up and running we integrated the code into one and set up different modes. The structure of the software then took shape over time with numerous trials and errors to produce the final product.</p>
+
+						<p class="margin-top-30">One of the serious concerns when working on the project was the power consumption consideration of the set up. Our initial estimates of the power drawn by the LED strip alone led us to use batteries with 5V 1A output. However, upon assembling the project the power consumption has increased with the rest of the modules integrated into it. This lead us to use a second battery (seen sticking outside the handle apart from the original one inside the handle) for smooth working of the project.</p>
+
+						<p class="margin-top-30">In the end, the five weeks of collaborative efforts by us has culminated into the working of the skywriter lightsaber as per our expectations.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="conclusion" class="templatemo-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="templatemo-content-box text-right">
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Conclusions</span>
+						</h2>
+						<p class="margin-top-30">We have been successful in meeting our project goals as per our expectations. The project idea was out of a brainstorm session which was then used to find a similar project by Bitluni, a hobbyist embedded systems developer. However, none of the software or hardware designs was used from them except for aiding in a quicker review for the procurement of the modules required. All the individual software modules for running the LED strip, MPU6050 and audio amplifier were all based off skeletal codes available on the ECE 4760 website. They were either written by the professor himself or used in other student projects in previous years. Either way, all the material used in our project was open source.
+
+						</p><p class="margin-top-30">However, with the experience gained over the course of this project we feel there are a few things we could’ve done differently. For starters, we could’ve started programming on the small board directly instead of Big board and saved us some time in changing the software to align with the different peripheral connections on the boards. Also, although we were careful in selecting different components so as to ensure they fit into the handle we could have spent some extra time in planning to have made the process even smoother. Perhaps, we could’ve used a 3D printed case to ensure the circuit is not disturbed within the handle.
+
+						</p><p class="margin-top-30">Considering the memory issues we faced when storing the image we had two options; reduce the image size or use external memory. Although we chose to limit the image size by just varying the hue component, we would like to try extending the memory to store more than one image. On the whole, we would like to conclude by thanking Prof. Bruce Land and his team of TA’s for being there with us throughout the project and the course to help us in their every capacity. </p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="templatemo-flex-center templatemo-black-bg">
+						<div class="templatemo-flex-center templatemo-white-rectangle-bg">
+							<div class="jcarousel-wrapper templatemo-products">
+								<div class="jcarousel">
+								    <ul>
+								        <li>
+								        	<div class="templatemo-product-container text-center">
+												<h3 class="templatemo-gold">Product Name</h3>
+												<img src="images/product-1.png" alt="Product 1" class="templatemo-product-img">
+											</div>
+								        </li>
+								        <li>
+								        	<div class="templatemo-product-container text-center">
+												<h3 class="templatemo-gold">Smart Phone</h3>
+												<img src="images/product-2.png" alt="Product 2" class="templatemo-product-img">
+											</div>
+								        </li>
+								        <li>
+								        	<div class="templatemo-product-container text-center">
+												<h3 class="templatemo-gold">Cogs</h3>
+												<img src="images/product-3.png" alt="Product 3" class="templatemo-product-img">
+											</div>
+								        </li>
+								    </ul>
+								</div>
+								<a href="#" class="jcarousel-control-prev inactive">&lsaquo;</a>
+				                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</section>
+
+
+</p>
+	<section id="appendix" class="templatemo-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<div class="templatemo-content-box templatemo-second-box" class="templatemo-white">
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Appendix <span class="templatemo-gold">A</span></span>
+						</h2>
+						<p class="margin-top-30">The group approves this report for inclusion on the course website.
+						</p><p class="margin-top-30">The group approves the video for inclusion on the course youtube channel.</p>
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Appendix <span class="templatemo-gold">B</span></span>
+						</h2>
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Appendix <span class="templatemo-gold">C</span></span>
+						</h2>
+
+						<table style="width:100%" class="templatemo-white">
+							  <tr>
+							    <th>Part</th>
+							    <th>Vendor</th>
+							    <th>Cost</th>
+							  </tr>
+							  <tr>
+							    <td>3 ft, ¾” diameter polycarbonate tube</td>
+							    <td>Amazon</td>
+							    <td>$15.68</td>
+							  </tr>
+								<tr>
+							    <td>144p Dot Star LED strip</td>
+							    <td>Resuse project materials</td>
+							    <td>$49.95 (gifted by Bruce)</td>
+							  </tr>
+								<tr>
+							    <td>1 - 1.5” PVC pipe/td>
+							    <td>Home Depot</td>
+							    <td>$3.00</td>
+							  </tr>
+								<tr>
+							    <td>1 - 1.5” to ¾ PVC adapter</td>
+							    <td>Home Depot</td>
+							    <td>$1.00</td>
+							  </tr>
+								<tr>
+							    <td>Small Board</td>
+							    <td>Lab</td>
+							    <td>$4.00</td>
+							  </tr>
+								<tr>
+							    <td>Amplifier MAX98306</td>
+							    <td>Digikey</td>
+							    <td>$8.95</td>
+							  </tr>
+								<tr>
+							    <td>MPU-6050</td>
+							    <td>Amazon</td>
+							    <td>$4.99</td>
+							  </tr>
+							  <tr>
+							    <td>Small Solder Board</td>
+							    <td>Lab</td>
+							    <td>$1.00</td>
+							  </tr>
+							  <tr>
+							    <td>PIC32MX250F128B</td>
+							    <td>Lab</td>
+							    <td>$5.00</td>
+							  </tr>
+							  <tr>
+							    <td>DAC</td>
+							    <td>Lab</td>
+							    <td>$0.00</td>
+							  </tr>
+							  <tr>
+							    <td>Level Shifter</td>
+							    <td>Lab</td>
+							    <td>$0.00</td>
+							  </tr>
+							  <tr>
+							    <td>Lab Speaker</td>
+							    <td>Lab</td>
+							    <td>$2.00</td>
+							  </tr>
+								<tr>
+							    <td>Portable battery 1A</td>
+							    <td>Lab</td>
+							    <td>$5.00 (gifted by Bruce)</td>
+							  </tr>
+								<tr>
+							    <td>Portable battery 2A</td>
+							    <td>Lab</td>
+							    <td>$5.00 (gifted by Joe Skovira)</td>
+							  </tr>
+								<tr>
+							    <td>9 Header Pins</td>
+							    <td>Lab</td>
+							    <td>$0.45</td>
+							  </tr>
+								<tr><strong>
+							    <td>Total</td>
+							    <td></td>
+							    <td>$106.02</td>
+							  </strong></tr>
+							</table>
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Appendix <span class="templatemo-gold">D</span></span>
+						</h2>
+						<p class="margin-top-30">Alex and Kranthi worked extremely collaboratively throughout this project.</p>
+						<p class="margin-top-30">Alex</p>
+						<ul  class="templatemo-white">
+							<li>Lead the hardware development</li>
+							<li>Integrating components onto the solder board</li>
+							<li>Implementing the ISR and sound design</li>
+							<li>Constructing and designing the handle</li>
+							<li>Editing and filming the final video</li>
+						</ul>
+
+						<p class="margin-top-30">Kranthi</p>
+						<ul  class="templatemo-white">
+							<li>Lead the software development</li>
+							<li>Implement I2C, SPI, and Serial interfaces</li>
+							<li>Developed code to find angle from the gyroscope values</li>
+							<li>Design and implement of the persistence of vision mapping function</li>
+							<li>Constructing the blade</li>
+						</ul>
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Appendix <span class="templatemo-gold">E</span></span>
+						</h2>
+						<p class="margin-top-30">References</p>
+						<ul  class="templatemo-white">
+							<li>Similar project we referenced for a parts list: <a href="https://www.electromaker.io/project/view/pov-light-saber">https://www.electromaker.io/project/view/pov-light-saber</a></li>
+							<li>Star Wars logo drawn: <a href"https://imgur.com/gallery/LT2oQxM">https://imgur.com/gallery/LT2oQxM</a></li>
+							<li>Reference project for I2C communication and pitch calculation, Constellation Glass, <a href="http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2018/dap263_acn55_pdd35/dap263_acn55_pdd35/index.html">http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2018/dap263_acn55_pdd35/dap263_acn55_pdd35/index.html</a></li>
+							<li>Reference code for LED strip communication, <a href="http://people.ece.cornell.edu/land/courses/ece4760/PIC32/index_pixel_strip.html">http://people.ece.cornell.edu/land/courses/ece4760/PIC32/index_pixel_strip.html</a></li>
+						</ul>
+
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-section-title">Appendix <span class="templatemo-gold">F</span></span>
+						</h2>
+
+
+						<p class="margin-top-30">Main.c</p>
+						<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="font-style: italic">/*</span>
+<span style="font-style: italic"> * File:        TFT, keypad, DAC, LED, PORT EXPANDER test</span>
+<span style="font-style: italic"> *              With serial interface to PuTTY console</span>
+<span style="font-style: italic"> *              DMA GetMachineBuffer</span>
+<span style="font-style: italic"> *              !!!Modified scheduler!!!</span>
+<span style="font-style: italic"> * </span>
+<span style="font-style: italic"> * Author:      Bruce Land, Alexander Li, Kranthi Kumar M</span>
+<span style="font-style: italic"> * For use with Sean Carroll&#39;s Big Board</span>
+<span style="font-style: italic"> * http://people.ece.cornell.edu/land/courses/ece4760/PIC32/target_board.html</span>
+<span style="font-style: italic"> * Target PIC:  PIC32MX250F128B</span>
+<span style="font-style: italic"> */</span>
+
+
+
+<span style="font-style: italic">//This code works for LED and gyro perfectly. </span>
+<span style="font-style: italic">//There&#39;s clock on the DAC but we have noise output on speakers. Need to debug that</span>
+
+<span style="font-style: italic">////////////////////////////////////</span>
+<span style="font-style: italic">// clock AND protoThreads configure!</span>
+<span style="font-style: italic">// You MUST check this file!</span>
+<span style="font-style: italic">#include &quot;config_1_3_2.h&quot;</span>
+<span style="font-style: italic">// threading library</span>
+<span style="font-style: italic">#include &quot;pt_cornell_1_3_2.h&quot;</span>
+<span style="font-style: italic">// yup, the expander</span>
+<span style="font-style: italic">#include &quot;port_expander_brl4.h&quot;</span>
+
+<span style="font-style: italic">#include &quot;i2c_helper.h&quot;</span>
+
+<span style="font-style: italic">////////////////////////////////////</span>
+<span style="font-style: italic">// graphics libraries</span>
+<span style="font-style: italic">// SPI channel 1 connections to TFT</span>
+<span style="font-style: italic">#include &quot;tft_master.h&quot;</span>
+<span style="font-style: italic">#include &quot;tft_gfx.h&quot;</span>
+<span style="font-style: italic">// need for rand function</span>
+<span style="font-style: italic">#include &lt;stdlib.h&gt;</span>
+<span style="font-style: italic">// need for sin function</span>
+<span style="font-style: italic">#include &lt;math.h&gt;</span>
+<span style="font-style: italic">////////////////////////////////////</span>
+
+<span style="font-style: italic">// lock out timer 2 interrupt during spi communication to port expander</span>
+<span style="font-style: italic">// This is necessary if you use the SPI2 channel in an ISR.</span>
+<span style="font-style: italic">// The ISR below runs the DAC using SPI2</span>
+<span style="font-style: italic">#define start_spi2_critical_section INTEnable(INT_T2, 0)</span>
+<span style="font-style: italic">#define end_spi2_critical_section INTEnable(INT_T2, 1)</span>
+
+<span style="font-style: italic">////////////////////////////////////</span>
+
+<span style="font-style: italic">/* Demo code for interfacing TFT (ILI9340 controller) to PIC32</span>
+<span style="font-style: italic"> * The library has been modified from a similar Adafruit library</span>
+<span style="font-style: italic"> */</span>
+<span style="font-style: italic">// Adafruit data:</span>
+<span style="font-style: italic">/***************************************************</span>
+<span style="font-style: italic">  This is an example sketch for the Adafruit 2.2&quot; SPI display.</span>
+<span style="font-style: italic">  This library works with the Adafruit 2.2&quot; TFT Breakout w/SD card</span>
+<span style="font-style: italic">  ----&gt; http://www.adafruit.com/products/1480</span>
+
+<span style="font-style: italic">  Check out the links above for our tutorials and wiring diagrams</span>
+<span style="font-style: italic">  These displays use SPI to communicate, 4 or 5 pins are required to</span>
+<span style="font-style: italic">  interface (RST is optional)</span>
+<span style="font-style: italic">  Adafruit invests time and resources providing this open source code,</span>
+<span style="font-style: italic">  please support Adafruit and open-source hardware by purchasing</span>
+<span style="font-style: italic">  products from Adafruit!</span>
+
+<span style="font-style: italic">  Written by Limor Fried/Ladyada for Adafruit Industries.</span>
+<span style="font-style: italic">  MIT license, all text above must be included in any redistribution</span>
+<span style="font-style: italic"> ****************************************************/</span>
+
+<span style="font-style: italic">// string buffer</span>
+<span style="font-style: italic">//char buffer[60];</span>
+
+<span style="font-style: italic">////////////////////////////////////</span>
+<span style="font-style: italic">// DAC ISR</span>
+<span style="font-style: italic">// A-channel, 1x, active</span>
+<span style="font-style: italic">#define DAC_config_chan_A 0b0011000000000000</span>
+<span style="font-style: italic">// B-channel, 1x, active</span>
+<span style="font-style: italic">#define DAC_config_chan_B 0b1011000000000000</span>
+<span style="font-style: italic">// DDS constant</span>
+<span style="font-style: italic">//#define two32 4294967296.0 // 2^32 </span>
+<span style="font-style: italic">//#define Fs 100000</span>
+
+
+<span style="font-style: italic">// APA102 datasheet:</span>
+<span style="font-style: italic">// 32 bits of zeros is a start frame</span>
+<span style="font-style: italic">// 32 bits of ones is a stop frame</span>
+<span style="font-style: italic">// LED frame:</span>
+<span style="font-style: italic">// 111_5bit_global_intensity_8bitBlue_8bitGreen_8bitRed</span>
+<span style="font-style: italic">// so 0xff_00_ff_00 is full intnsity green</span>
+<span style="font-style: italic">#define START_FRAME 0x00000000</span>
+<span style="font-style: italic">#define STOP_FRAME  0xffffffff</span>
+<span style="font-style: italic">#define PIXEL_FRAME(i,r,g,b)(0xe0000000 | (((0x1f &amp; (i)))&lt;&lt;24) | ((0xff &amp; (b))&lt;&lt;16) | ((0xff &amp; (g))&lt;&lt;8) | (0xff &amp; (r)))</span>
+<span style="font-style: italic">//#define PIXEL_FRAME(i,r,g,b)(0xe0000000 | ((i)&lt;&lt;24) | ((b)&lt;&lt;16) | ((g)&lt;&lt;8) | (r))</span>
+<span style="font-style: italic">#define FULL_ON 0x1e</span>
+<span style="font-style: italic">#define HALF_ON 0x0f</span>
+<span style="font-style: italic">#define QUAR_ON 0x07</span>
+
+<span style="font-style: italic">// number of pixels</span>
+<span style="font-style: italic">#define PixelNum 125</span>
+
+<span style="font-style: italic">//States</span>
+<span style="font-style: italic">#define OFF 0</span>
+<span style="font-style: italic">#define NORMAL 1</span>
+<span style="font-style: italic">#define SQUARE 2</span>
+<span style="font-style: italic">#define PERSIST 3</span>
+<span style="font-style: italic">#define PARTY 4</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">int</span> state=OFF, button_state=0;
+
+<span style="font-style: italic">//Gyroscope</span>
+
+
+
+<span style="font-weight: bold">typedef</span> <span style="font-weight: bold">struct</span> pixel pixel;
+<span style="font-weight: bold">struct</span> pixel{
+    <span style="font-weight: bold">char</span> red;
+    <span style="font-weight: bold">char</span> green;
+    <span style="font-weight: bold">char</span> blue;
+    <span style="font-weight: bold">char</span> intensity;
+};
+<span style="font-style: italic">// and the whole string</span>
+pixel pixel_array[PixelNum];
+
+<span style="font-style: italic">// string buffer</span>
+<span style="font-weight: bold">char</span> buffer[60];
+
+<span style="font-style: italic">//Gyroscope values</span>
+<span style="font-weight: bold">float</span> xGyro;
+<span style="font-weight: bold">float</span> yGyro;
+
+<span style="font-style: italic">////////////////////////////////////</span>
+<span style="font-style: italic">// Audio DAC ISR</span>
+<span style="font-style: italic">// A-channel, 1x, active</span>
+<span style="font-style: italic">#define DAC_config_chan_A 0b0011000000000000</span>
+<span style="font-style: italic">// B-channel, 1x, active</span>
+<span style="font-style: italic">#define DAC_config_chan_B 0b1011000000000000</span>
+
+<span style="font-style: italic">// audio sample frequency</span>
+<span style="font-style: italic">#define Fs 44000</span>
+<span style="font-style: italic">// need this constant for setting DDS frequency</span>
+<span style="font-style: italic">#define two32 4294967296 // 2^32 </span>
+<span style="font-style: italic">// sine lookup table for DDS</span>
+<span style="font-style: italic">#define sine_table_size 256</span>
+<span style="font-weight: bold">volatile</span> _Accum sine_table[sine_table_size] ;
+<span style="font-style: italic">// phase accumulator for DDS</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> DDS_phase, FM_DDS_phase ;
+<span style="font-style: italic">// phase increment to set the frequency DDS_increment = Fout*two32/Fs</span>
+<span style="font-style: italic">// For A above middle C DDS_increment =  = 42949673 = 440.0*two32/Fs</span>
+<span style="font-style: italic">#define Fout 110.0</span>
+<span style="font-style: italic">#define FM_Fout 2*110.0</span>
+
+
+<span style="font-style: italic">#define MAX_G_VALUE 5000</span>
+
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> Fnew=0, mode=1;
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> DDS_increment = Fout*two32/Fs , constant; <span style="font-style: italic">//42949673 ;</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> DDS_const = Fout*two32/Fs;
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> FM_DDS_increment = 5*Fout*two32/Fs ;
+<span style="font-style: italic">// waveform amplitude</span>
+<span style="font-weight: bold">volatile</span> _Accum max_amplitude=1500, FM_max_amplitude=1500, FM_out;
+
+<span style="font-style: italic">// waveform amplitude envelope parameters</span>
+<span style="font-style: italic">// rise/fall time envelope 44 kHz samples</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> attack_time=50000, decay_time=25000, sustain_time=100 ;
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> FM_attack_time=50000, FM_decay_time=15000, FM_sustain_time=100 ;
+
+<span style="font-style: italic">//  0&lt;= current_amplitude &lt; 2048</span>
+<span style="font-weight: bold">volatile</span> _Accum current_amplitude ;
+<span style="font-weight: bold">volatile</span> _Accum FM_current_amplitude ;
+<span style="font-style: italic">// amplitude change per sample during attack and decay</span>
+<span style="font-style: italic">// no change during sustain</span>
+<span style="font-weight: bold">volatile</span> _Accum attack_inc, decay_inc ;
+<span style="font-weight: bold">volatile</span> _Accum FM_attack_inc, FM_decay_inc ;
+
+<span style="font-style: italic">//== Timer 2 interrupt handler ===========================================</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> DAC_data_A, DAC_data_B ;<span style="font-style: italic">// output values</span>
+<span style="font-style: italic">//volatile SpiChannel spiChn = SPI_CHANNEL2 ;	// the SPI channel to use</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">int</span> spiClkDiv = 4 ; <span style="font-style: italic">// 10 MHz max speed for port expander!!</span>
+
+<span style="font-style: italic">// interrupt ticks since beginning of song or note</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> song_time, note_time ;
+
+<span style="font-style: italic">//PushState for debouncing</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> PushState = 0;
+
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">int</span> note[60], counter=0;
+
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">int</span> xpos,ypos;
+
+<span style="font-weight: bold">float</span>  values[6],accum_values[3], pitch, roll, sin_pitch, cos_pitch;<span style="font-style: italic">//low pass filtered accelerometer values</span>
+
+
+
+<span style="font-weight: bold">void</span> __ISR(_TIMER_2_VECTOR, ipl2) Timer2Handler(<span style="font-weight: bold">void</span>)
+{
+    <span style="font-weight: bold">int</span> junk;
+
+    mT2ClearIntFlag();
+
+    <span style="font-style: italic">// generate  sinewave</span>
+    FM_DDS_phase += FM_DDS_increment;
+    <span style="font-weight: bold">if</span>(FM_DDS_increment ==0)
+    {
+        FM_DDS_phase=0;
+    }
+    <span style="font-style: italic">//DAC_data += 1 &amp; 0xfff ; // low frequency ramp</span>
+    FM_out = (FM_current_amplitude*sine_table[FM_DDS_phase&gt;&gt;24]) ;
+    <span style="font-style: italic">// advance the phase</span>
+    DDS_phase += DDS_increment + ((<span style="font-weight: bold">int</span>)FM_out &lt;&lt; 16);
+
+
+    DAC_data_A = (<span style="font-weight: bold">int</span>)(current_amplitude*sine_table[DDS_phase&gt;&gt;24])  + 2048; <span style="font-style: italic">// for testing sine_table[DDS_phase&gt;&gt;24]</span>
+
+    <span style="font-style: italic">// update amplitude envelope </span>
+    <span style="font-style: italic">// don&#39;t include the envelope for test mode, version 1</span>
+    <span style="font-weight: bold">if</span> (state == NORMAL) {
+        <span style="font-weight: bold">if</span> (note_time &lt; (attack_time + decay_time + sustain_time)){
+            current_amplitude = (note_time &lt;= attack_time)?
+                current_amplitude + attack_inc :
+                (note_time &lt;= attack_time + sustain_time)? current_amplitude:
+                    current_amplitude - decay_inc ;
+        }
+        <span style="font-weight: bold">else</span> {
+            current_amplitude = max_amplitude;;
+        }
+
+        <span style="font-weight: bold">if</span> (note_time &lt; (FM_attack_time + FM_decay_time + FM_sustain_time)){
+            FM_current_amplitude = (note_time &lt;= FM_attack_time)?
+                FM_current_amplitude + FM_attack_inc :
+                (note_time &lt;= FM_attack_time + FM_sustain_time)? FM_current_amplitude:
+                    FM_current_amplitude - FM_decay_inc ;
+        }
+        <span style="font-weight: bold">else</span> {
+            FM_current_amplitude = 0 ;
+        }
+    }
+    <span style="font-weight: bold">if</span>(state == OFF) current_amplitude = 0;
+    <span style="font-weight: bold">else</span> {
+    current_amplitude=max_amplitude;
+    }
+
+    <span style="font-weight: bold">if</span>(state == PARTY) constant = 100000;
+    <span style="font-weight: bold">else</span> constant = 10000;
+
+    <span style="font-weight: bold">if</span>(xGyro&gt;0){
+    DDS_increment = DDS_const + xGyro*constant;
+    }
+    <span style="font-weight: bold">else</span> DDS_increment = DDS_const - xGyro*constant
+            ;
+     <span style="font-style: italic">// test for ready</span>
+     <span style="font-weight: bold">while</span> (TxBufFullSPI1());
+
+    <span style="font-style: italic">// reset spi mode to avoid conflict with expander</span>
+    <span style="font-style: italic">//SPI_Mode16();</span>
+    <span style="font-style: italic">// DAC-A CS low to start transaction</span>
+    mPORTBClearBits(BIT_4); <span style="font-style: italic">// start transaction </span>
+     <span style="font-style: italic">// write to spi1</span>
+    WriteSPI1(DAC_config_chan_A | (DAC_data_A &amp; 0xfff) );
+    <span style="font-style: italic">// fold a couple of timer updates into the transmit time</span>
+
+    <span style="font-style: italic">// test for done</span>
+    <span style="font-weight: bold">while</span> (SPI1STATbits.SPIBUSY); <span style="font-style: italic">// wait for end of transaction</span>
+    <span style="font-style: italic">// MUST read to clear buffer for port expander elsewhere in code</span>
+    junk = ReadSPI1();
+    <span style="font-style: italic">// CS high</span>
+    mPORTBSetBits(BIT_4); <span style="font-style: italic">// end transaction</span>
+    note_time++;
+}
+
+<span style="font-style: italic">// === display the LEDs ===========================================</span>
+<span style="font-style: italic">// copies the contents of pixel_array to SPI</span>
+<span style="font-weight: bold">void</span> write_pixels(<span style="font-weight: bold">void</span>){
+
+    <span style="font-style: italic">// start frame</span>
+    WriteSPI2(START_FRAME);
+    <span style="font-style: italic">// wait for end of transaction</span>
+    <span style="font-weight: bold">while</span> (SPI2STATbits.SPIBUSY);
+
+    <span style="font-weight: bold">int</span> i;
+    <span style="font-style: italic">//payload</span>
+    <span style="font-weight: bold">for</span> (i=0; i&lt;PixelNum; i++){
+        WriteSPI2(PIXEL_FRAME(pixel_array[i].intensity, pixel_array[i].red, pixel_array[i].green, pixel_array[i].blue));
+        <span style="font-style: italic">// wait for end of transaction</span>
+        <span style="font-weight: bold">while</span> (SPI2STATbits.SPIBUSY);
+    }
+    <span style="font-style: italic">//stop frame</span>
+    WriteSPI2(STOP_FRAME);
+    <span style="font-style: italic">// wait for end of transaction</span>
+    <span style="font-weight: bold">while</span> (SPI2STATbits.SPIBUSY);
+}
+
+<span style="font-style: italic">// === write a RGBI value to the pixel array =======================</span>
+<span style="font-weight: bold">void</span> set_pixel_rgb(<span style="font-weight: bold">int</span> i, <span style="font-weight: bold">char</span> r, <span style="font-weight: bold">char</span> g, <span style="font-weight: bold">char</span> b, <span style="font-weight: bold">char</span> intensity){
+    <span style="font-weight: bold">if</span> (i&lt;0 || i&gt;=PixelNum) <span style="font-weight: bold">return</span> ;
+    pixel_array[i].intensity = intensity  ;  <span style="font-style: italic">//enforce max </span>
+    pixel_array[i].red = r   ;
+    pixel_array[i].green = g  ;
+    pixel_array[i].blue = b ;
+}
+
+<span style="font-style: italic">// === write a HSVI value to the pixel array =======================</span>
+<span style="font-weight: bold">void</span> set_pixel_hsv(<span style="font-weight: bold">int</span> i, <span style="font-weight: bold">float</span> h, <span style="font-weight: bold">float</span> s, <span style="font-weight: bold">float</span> v, <span style="font-weight: bold">char</span> intensity){
+    <span style="font-weight: bold">float</span> C, X, m, rp, gp, bp ;
+    <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">char</span> r, g, b ;
+    <span style="font-style: italic">// index range check</span>
+    <span style="font-weight: bold">if</span> (i&lt;0 || i&gt;=PixelNum) <span style="font-weight: bold">return</span> ;
+    <span style="font-style: italic">// hsv to rgb conversion from</span>
+    <span style="font-style: italic">// http://www.rapidtables.com/convert/color/hsv-to-rgb.htm</span>
+    C = v * s;
+    <span style="font-style: italic">//X = C * (1 - abs((int)(h/60)%2 - 1));</span>
+    <span style="font-style: italic">// (h/60) mod 2  = (h/60 - (int)(h/60))</span>
+    X = C * (1.0 - fabsf(fmodf(h/60.0, 2.0) - 1.));
+    m = v - C;
+    <span style="font-weight: bold">if</span>      ((0&lt;=h) &amp;&amp; (h&lt;60))   { rp = C; gp = X; bp = 0;}
+    <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span> ((60&lt;=h) &amp;&amp; (h&lt;120)) { rp = X; gp = C; bp = 0;}
+    <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span> ((120&lt;=h) &amp;&amp; (h&lt;180)){ rp = 0; gp = C; bp = X;}
+    <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span> ((180&lt;=h) &amp;&amp; (h&lt;240)){ rp = 0; gp = X; bp = C;}
+    <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span> ((240&lt;=h) &amp;&amp; (h&lt;300)){ rp = X; gp = 0; bp = C;}
+    <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span> ((300&lt;=h) &amp;&amp; (h&lt;360)){ rp = C; gp = 0; bp = X;}
+    <span style="font-weight: bold">else</span>                         { rp = 0; gp = 0; bp = 0;}
+
+    r = (<span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">char</span>)((rp+m)*255) ;
+    g = (<span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">char</span>)((gp+m)*255) ;
+    b = (<span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">char</span>)((bp+m)*255) ;
+
+    pixel_array[i].intensity = intensity  ;  <span style="font-style: italic">//enforce max </span>
+    pixel_array[i].red = r   ;
+    pixel_array[i].green = g  ;
+    pixel_array[i].blue = b  ;
+}
+
+<span style="font-style: italic">// === thread structures ============================================</span>
+<span style="font-style: italic">// thread control structs</span>
+<span style="font-style: italic">// note that UART input and output are threads</span>
+<span style="font-weight: bold">static</span> <span style="font-weight: bold">struct</span> pt pt_timer, pt_gyro;
+
+
+<span style="font-style: italic">// === Timer Thread =================================================</span>
+<span style="font-style: italic">// update a 1 second tick counter</span>
+<span style="font-weight: bold">int</span> position=0, dir=1,img_column=0;
+<span style="font-style: italic">#define DDS_sample_time 30</span>
+
+<span style="font-style: italic">// variables for red snake</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">int</span> start = 0, end = 4, snake_counter = 0;
+
+<span style="font-style: italic">//variables for sound</span>
+<span style="font-weight: bold">volatile</span> <span style="font-weight: bold">int</span> sound_count = 0, count_start=0;
+
+<span style="font-weight: bold">static</span> PT_THREAD (protothread_timer(<span style="font-weight: bold">struct</span> pt *pt)){
+    PT_BEGIN(pt);
+
+     PT_YIELD_TIME_msec(1000) ;
+
+      <span style="font-weight: bold">static</span> <span style="font-weight: bold">int</span> i ;
+      <span style="font-weight: bold">static</span> <span style="font-weight: bold">int</span> sine[256], c[256] ;
+      <span style="font-weight: bold">static</span> <span style="font-weight: bold">float</span> h, s, v, m[256];
+      <span style="font-style: italic">// with a 16 bit DDS and 8-bit sine table index</span>
+      <span style="font-style: italic">// frequency of sine output is related to increment as</span>
+      <span style="font-style: italic">// inc = Fout * 2^16 * DDS_sample_time</span>
+      <span style="font-style: italic">// e.g. for 2 Hz and sample time 0f 30 millisec: </span>
+      <span style="font-style: italic">// inc = 2 * 2^16 * 0.030 = 3932</span>
+      <span style="font-style: italic">// or an increment of about 2000 per Hz. (with 30 mS sample time)</span>
+      <span style="font-weight: bold">static</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">short</span> dds_inc_r=1500, dds_inc_g=1500, dds_inc_b=500, dds_inc_m=600;
+      <span style="font-weight: bold">static</span> <span style="font-weight: bold">unsigned</span> <span style="font-weight: bold">short</span> dds_acc_r, dds_acc_g, dds_acc_b, dds_acc_m;
+      <span style="font-weight: bold">static</span> <span style="font-weight: bold">char</span> r,g,b,intensity;
+      <span style="font-style: italic">// set up DDS tables</span>
+      <span style="font-style: italic">// 256 entries of 8-bits each</span>
+      <span style="font-weight: bold">for</span>(i=0; i&lt;256; i++){
+        sine[i] = (<span style="font-weight: bold">int</span>)(120.*sin((<span style="font-weight: bold">float</span>)i*6.28/256.)+ 120);
+        c[i] = (<span style="font-weight: bold">int</span>)(120.*cos((<span style="font-weight: bold">float</span>)i*6.28/256.)+ 120);
+        m[i] = (360.*((<span style="font-weight: bold">float</span>)i/256.)); <span style="font-style: italic">//  i to h in degrees</span>
+      }
+
+      <span style="font-weight: bold">static</span> index = 0; <span style="font-style: italic">//for looping through image array</span>
+
+
+      <span style="font-weight: bold">while</span>(1) {
+        <span style="font-style: italic">// yield time </span>
+        PT_YIELD_TIME_msec(2);
+        <span style="font-style: italic">//Uncomment these if you want to use party mode</span>
+
+        <span style="font-style: italic">// DDS phase incrementers</span>
+        dds_acc_r += dds_inc_r ;
+        dds_acc_g += dds_inc_g ;
+        dds_acc_b += dds_inc_b ;
+        dds_acc_m += dds_inc_m ;
+
+
+        <span style="font-style: italic">// Toggle mode</span>
+        <span style="font-weight: bold">if</span>( mPORTAReadBits(BIT_0) &amp;&amp; button_state == 0) {
+
+            <span style="font-weight: bold">if</span>(state == PARTY){<span style="font-style: italic">//turn off sequence</span>
+                state = OFF;
+            }
+            <span style="font-weight: bold">else</span> { <span style="font-style: italic">//toggle</span>
+                state++;
+            }
+            button_state = 1;
+            note_time=0;
+            count_start=0;
+        }
+        <span style="font-weight: bold">if</span>(!mPORTAReadBits(BIT_0) &amp;&amp; button_state == 1){
+            button_state=0;
+        }
+
+
+        <span style="font-weight: bold">if</span>(start &gt; PixelNum) {
+            start =0;
+            end = 4;
+        }
+        <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span>(start &lt; 0) {
+            start =0;
+            end = 4;
+        }
+        start = start + (<span style="font-weight: bold">int</span>)xGyro/2;
+        end = end + (<span style="font-weight: bold">int</span>)xGyro/2;
+
+
+        <span style="font-weight: bold">float</span> pitch_temp = pitch;
+        sin_pitch = sin(pitch_temp);
+        cos_pitch = cos(pitch_temp);
+        <span style="font-style: italic">//SETTING THE LEDS</span>
+        <span style="font-weight: bold">for</span>(i=0; i&lt;PixelNum; i++){
+            <span style="font-style: italic">// shift dds_acc by 8 for index into table</span>
+            <span style="font-style: italic">// add array index for motion</span>
+            <span style="font-style: italic">// mask with 0xff for moduluo 256 operation</span>
+
+            <span style="font-weight: bold">switch</span>(state){
+                <span style="font-weight: bold">case</span> OFF:
+                    h = s = v = 0.0;
+                    <span style="font-weight: bold">break</span>;
+                <span style="font-weight: bold">case</span> NORMAL:
+
+                    <span style="font-weight: bold">if</span>(i&lt;count_start) {
+                        v = 1.0;
+                        s = 1.0;
+                        h = 0.0;
+                    }
+                    <span style="font-weight: bold">else</span> h = s = v = 0.0;
+
+                    <span style="font-weight: bold">break</span>;
+                <span style="font-weight: bold">case</span> SQUARE:
+                    ypos = (<span style="font-weight: bold">int</span>)((<span style="font-weight: bold">float</span>)i * sin_pitch);
+                    ypos = PixelNum-1 - ypos;
+                    xpos = (<span style="font-weight: bold">int</span>)((<span style="font-weight: bold">float</span>)i * cos_pitch);
+
+                    <span style="font-weight: bold">if</span>(values[2]&gt;0){
+                        xpos = 62-xpos;
+                    }
+                    <span style="font-weight: bold">else</span> xpos = 62 + xpos;
+
+
+                    h=0.00;
+                    v=1.0;
+
+                    <span style="font-weight: bold">if</span>(xpos &gt; 30 &amp;&amp; xpos &lt; 90 &amp;&amp; ypos &gt; 30 &amp;&amp; ypos &lt;90){
+                        s=0.0;
+                    }
+                    <span style="font-weight: bold">else</span> s = 1.0;
+
+                    <span style="font-weight: bold">break</span>;
+
+                <span style="font-weight: bold">case</span> PERSIST:
+                    ypos = (<span style="font-weight: bold">int</span>)((<span style="font-weight: bold">float</span>)i * sin_pitch);
+                    ypos = PixelNum-1 - ypos;
+                    xpos = (<span style="font-weight: bold">int</span>)((<span style="font-weight: bold">float</span>)i * cos_pitch);
+
+                    <span style="font-weight: bold">if</span>(values[2]&gt;0){
+                        xpos = 62-xpos;
+                    }
+                    <span style="font-weight: bold">else</span> xpos = 62 + xpos;
+
+
+                    h=0.0;
+                    v=1.0;
+                    <span style="font-weight: bold">if</span>(xpos&lt;0 || xpos &gt;PixelNum -1 || ypos &lt; 0 || ypos &gt; PixelNum-1){
+                        s=01.0;
+                    }
+                    <span style="font-weight: bold">else</span>{
+                        <span style="font-weight: bold">if</span>(img_s[ypos][xpos]== 0){
+                            s=1.0;
+                        }
+                        <span style="font-weight: bold">else</span> s = 0.0;
+                    }
+
+
+                    <span style="font-weight: bold">break</span>;
+                <span style="font-weight: bold">case</span> PARTY:
+                   h = m[((dds_acc_m&gt;&gt;8)+i) &amp; 0xff];
+                    v = 1.0;
+                    s = 1.0;
+
+
+
+
+                    <span style="font-weight: bold">break</span>;
+
+                default:
+
+                    h = s = v = 0.0;
+                    <span style="font-weight: bold">break</span>;
+            }
+
+            intensity = QUAR_ON ;
+            set_pixel_hsv(i, h, s, v, intensity);
+        }
+        count_start +=2;
+        <span style="font-weight: bold">if</span>(img_column&lt;100 &amp;&amp; state == PARTY) img_column +=1;
+        <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span> (state == PARTY) img_column=99;
+        write_pixels();
+
+
+      } <span style="font-style: italic">// END WHILE(1)</span>
+  PT_END(pt);
+} <span style="font-style: italic">// timer thread</span>
+
+<span style="font-weight: bold">static</span> PT_THREAD (protothread_gyro(<span style="font-weight: bold">struct</span> pt *pt)){
+    PT_BEGIN(pt);
+
+    PT_YIELD_TIME_msec(300);
+
+    <span style="font-weight: bold">while</span>(1) {
+        PT_YIELD_TIME_msec(2);
+
+
+
+        <span style="font-style: italic">// Read the Gyro values </span>
+        <span style="font-style: italic">// Read data from IMU in format</span>
+        <span style="font-style: italic">// {xAccel, yAccel, zAccel, xGyro, yGyro, zGyro}</span>
+
+        readImuValues(values);
+
+        <span style="font-style: italic">// Parse the IMU data</span>
+        xGyro  = values[3];
+        yGyro  = values[4];
+
+        <span style="font-style: italic">// creating a digital low pass filter</span>
+        accum_values[0] = accum_values[0]*0.75 + .25* values[0]/MAX_G_VALUE;
+        accum_values[1] = accum_values[1]*0.75 + .25* values[1]/MAX_G_VALUE;
+        accum_values[2] = accum_values[2]*0.75 + .25* values[2]/MAX_G_VALUE;
+
+
+
+         pitch = atan2((-accum_values[1]) , sqrt(accum_values[0] * accum_values[0] + accum_values[2] * accum_values[2]));<span style="font-style: italic">//computes the pitch</span>
+
+
+        <span style="font-weight: bold">if</span> (pitch &gt; 1.57){
+            pitch = 1.57;
+        }
+        <span style="font-weight: bold">else</span> <span style="font-weight: bold">if</span> (pitch &lt; -1.57){
+            pitch = -1.57;
+        }
+
+
+
+
+    }
+
+
+    PT_END(pt);
+}
+
+<span style="font-style: italic">// === Main  ======================================================</span>
+<span style="font-weight: bold">void</span> main(<span style="font-weight: bold">void</span>) {
+
+
+
+  <span style="font-style: italic">//SETUP ISR FOR SOUND</span>
+  OpenTimer2(T2_ON | T2_SOURCE_INT | T2_PS_1_1, 908); <span style="font-style: italic">//&lt;==========breaks the SPI for LED</span>
+  ANSELA = 0; ANSELB = 0;
+  ConfigIntTimer2(T2_INT_ON | T2_INT_PRIOR_2);
+  mT2ClearIntFlag(); <span style="font-style: italic">// and clear the interrupt flag</span>
+
+  PPSOutput(2, RPB1, SDO1);
+
+  <span style="font-style: italic">// control CS for DAC</span>
+    mPORTBSetPinsDigitalOut(BIT_4);
+    mPORTBSetBits(BIT_4);
+
+     <span style="font-style: italic">// divide Fpb by 2, configure the I/O ports. Not using SS in this example</span>
+    <span style="font-style: italic">// 16 bit transfer CKP=1 CKE=1</span>
+    <span style="font-style: italic">// possibles SPI_OPEN_CKP_HIGH;   SPI_OPEN_SMP_END;  SPI_OPEN_CKE_REV</span>
+    <span style="font-style: italic">// For any given peripherial, you will need to match these</span>
+    <span style="font-style: italic">// clk divider set to 4 for 10 MHz</span>
+    SpiChnOpen(SPI_CHANNEL1, SPI_OPEN_ON | SPI_OPEN_MODE16 | SPI_OPEN_MSTEN | SPI_OPEN_CKE_REV , 4);
+   <span style="font-style: italic">// end DAC setup</span>
+    <span style="font-style: italic">// build the sine lookup table</span>
+   <span style="font-style: italic">// scaled to produce values between 0 and 4096</span>
+   <span style="font-weight: bold">int</span> i;
+   <span style="font-weight: bold">for</span> (i = 0; i &lt; sine_table_size; i++){
+         sine_table[i] = (_Accum)(sin((<span style="font-weight: bold">float</span>)i*6.283/(<span style="font-weight: bold">float</span>)sine_table_size));
+    }
+
+   <span style="font-style: italic">// build the amplitude envelope parameters</span>
+   <span style="font-style: italic">// bow parameters range check</span>
+	<span style="font-weight: bold">if</span> (attack_time &lt; 1) attack_time = 1;
+	<span style="font-weight: bold">if</span> (decay_time &lt; 1) decay_time = 1;
+	<span style="font-weight: bold">if</span> (sustain_time &lt; 1) sustain_time = 1;
+	<span style="font-style: italic">// set up increments for calculating bow envelope</span>
+	attack_inc = max_amplitude/(_Accum)attack_time ;
+    FM_attack_inc = max_amplitude/(_Accum)attack_time ;
+	decay_inc = max_amplitude/(_Accum)decay_time ;
+    FM_decay_inc = decay_inc*(0.80/0.98) ;
+  <span style="font-style: italic">// === config threads ==========</span>
+  <span style="font-style: italic">// turns OFF UART support and debugger pin, unless defines are set</span>
+  PT_setup();
+
+  <span style="font-style: italic">// === setup system wide interrupts  ========</span>
+  INTEnableSystemMultiVectoredInt();
+
+
+    <span style="font-style: italic">//LED SPI</span>
+    SpiChnOpen(2, SPI_OPEN_ON | SPI_OPEN_MODE32 | SPI_OPEN_MSTEN | SPICON_CKP, 4);
+    <span style="font-style: italic">// SCK2 is pin 26 </span>
+    <span style="font-style: italic">// SDO2 (MOSI) is in PPS output group 2, could be connected to RB5 which is pin 14</span>
+    PPSOutput(2, RPB5, SDO2);
+
+
+
+  <span style="font-style: italic">// init the threads</span>
+  PT_INIT(&amp;pt_timer);
+  PT_INIT(&amp;pt_gyro);
+
+  <span style="font-style: italic">//Init button</span>
+  mPORTASetPinsDigitalIn(BIT_0);
+
+  <span style="font-style: italic">// === setup I2C  ========</span>
+  <span style="font-style: italic">// PBCLK 40Mhz, FSCK 400kHz -&gt; 0x02C I2CxBRG</span>
+  <span style="font-style: italic">// src: table 24-2</span>
+  <span style="font-style: italic">// https://people.ece.cornell.edu/land/courses/ece4760/PIC32/index_i2c.html</span>
+  OpenI2C1(I2C_ON, 0x02C);
+
+
+  <span style="font-style: italic">// Take the Gyro out of sleep mode</span>
+    <span style="font-weight: bold">char</span> data[] = {0};
+    i2c_write(0x6b, data, 1);
+
+    <span style="font-style: italic">// Set the gyro sensitivity to 131 lsb/(degrees/second))</span>
+    i2c_write(0x1b, data, 1);
+
+    <span style="font-style: italic">// Calibrate the gyroscopes (robot must be stable on flat surface)</span>
+    calibrateGyros();
+
+
+
+
+  <span style="font-style: italic">// round-robin scheduler for threads</span>
+  <span style="font-weight: bold">while</span> (1){
+      PT_SCHEDULE(protothread_timer(&amp;pt_timer));
+      PT_SCHEDULE(protothread_gyro(&amp;pt_gyro));
+  }
+} <span style="font-style: italic">// main</span>
+
+<span style="font-style: italic">// === end  ======================================================</span>
+</pre></div>
+
+
+
+					<p class="margin-top-30">Python script for image array</p>
+
+
+					<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="font-style: italic">&quot;&quot;&quot;</span>
+<span style="font-style: italic">Author: Kranthi Kumar M</span>
+<span style="font-style: italic">Convert image to HSV text file</span>
+
+<span style="font-style: italic">&quot;&quot;&quot;</span>
+
+<span style="font-weight: bold">import</span> <span style="font-weight: bold">cv2</span>
+<span style="font-weight: bold">import</span> <span style="font-weight: bold">numpy</span> <span style="font-weight: bold">as</span> <span style="font-weight: bold">np</span>
+
+<span style="font-style: italic"># Reads the image </span>
+img = cv2.imread(<span style="font-style: italic">&#39;star_wars_final1.jpg&#39;</span>)
+
+<span style="font-style: italic"># Converts to HSV color space </span>
+img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+dim = (125,125)
+img = cv2.resize(img,dim)
+<span style="font-style: italic"># Shows the image </span>
+
+
+
+f = open(<span style="font-style: italic">&#39;HSV_star_wars.txt&#39;</span>, <span style="font-style: italic">&#39;w+&#39;</span>)
+
+<span style="font-weight: bold">print</span>(img.shape)
+
+temp=0.0000
+
+<span style="font-weight: bold">for</span> i <span style="font-weight: bold">in</span> range(125):
+    <span style="font-weight: bold">for</span> j <span style="font-weight: bold">in</span> range (125):
+        img[i][j][2]=255
+        img[i][j][0]=0
+        temp=float(img[i][j][1])
+        <span style="font-weight: bold">if</span>(temp&lt;127):
+            img[i][j][1]=0
+        <span style="font-weight: bold">else</span>:
+            img[i][j][1]=255
+        f.write(str(img[i][j][1]))
+        <span style="font-weight: bold">if</span>(j != 124):
+            f.write(<span style="font-style: italic">&#39;, &#39;</span>)
+    f.write(<span style="font-style: italic">&#39;},</span><span style="font-weight: bold; font-style: italic">\n</span><span style="font-style: italic">{&#39;</span>)
+
+abc = np.asarray(img[:,:,1])
+
+
+np.savetxt(<span style="font-style: italic">&quot;hsv_red.csv&quot;</span>, abc, delimiter=<span style="font-style: italic">&quot;,&quot;</span>, fmt=<span style="font-style: italic">&#39;</span><span style="font-weight: bold; font-style: italic">%d</span><span style="font-style: italic">&#39;</span>)
+
+<span style="font-style: italic">&#39;&#39;&#39;</span>
+<span style="font-style: italic">for contents in img:</span>
+<span style="font-style: italic">    f.write(str(contents))</span>
+<span style="font-style: italic">&#39;&#39;&#39;</span>
+f.close()
+
+<span style="font-weight: bold">print</span>(img[0][0][2]/2)
+
+img = cv2.cvtColor(img, cv2.COLOR_HSV2BGR)
+cv2.imshow(<span style="font-style: italic">&#39;image&#39;</span>, img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+</pre></div>
+
+
+					</div>
+				</div>
 		</div>
 	</section>
 	<footer class="container margin-top-30">

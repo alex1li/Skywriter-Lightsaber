@@ -64,8 +64,7 @@ ul { margin: 0; }
 .templatemo-black-bg {
    border-radius: 30px;
    width: 100%;
-   width: 523px;
-   height: 523px;
+
 }
 .templatemo-black-bg,
 .templatemo-content-box {
@@ -114,6 +113,8 @@ ul { margin: 0; }
   background: url('../images/round-rectangle.png') no-repeat;
   background-position: center;
   background-size: contain;
+  width: 523px;
+  height: 523px;
 }
 .templatemo-brown-rectangle-bg {
   border: 1px solid #FFD700;
@@ -212,7 +213,7 @@ https://stackoverflow.com/questions/952861/targeting-only-firefox-with-css/95349
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.templatemo-nav ul li a { color: #865701; }
+.templatemo-nav ul li a { color: #fefbfa; }
 #responsive-menu ul li:hover a,
 #responsive-menu ul li.active a,
 .templatemo-nav li:hover a,
