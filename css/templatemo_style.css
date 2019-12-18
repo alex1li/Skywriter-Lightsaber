@@ -64,11 +64,12 @@ ul { margin: 0; }
 .templatemo-black-bg {
    border-radius: 30px;
    width: 100%;
+   width: 523px;
+   height: 523px;
 }
 .templatemo-black-bg,
 .templatemo-content-box {
-  width: 523px;
-  height: 523px;
+
 }
 .templatemo-content-box {
   display: -webkit-box;

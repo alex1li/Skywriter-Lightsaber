@@ -22,11 +22,14 @@
 <body>
 	<nav id="responsive-menu">
         <ul class="menu-holder">
-            <li class="active"><a href="#home"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="#about"><i class="fa fa-briefcase"></i>About</a></li>
-            <li><a href="#services"><i class="fa fa-cogs"></i>Design</a></li>
-            <li><a href="#products"><i class="fa fa-list"></i>Testing</a></li>
-            <li><a href="#contact"><i class="fa fa-envelope"></i>Contact</a></li>
+            <li class="active"><a href="#introduction"><i class="fa fa-home"></i>Introduction</a></li>
+            <li><a href="#overview"><i class="fa fa-briefcase"></i>Overview</a></li>
+            <li><a href="#hardware"><i class="fa fa-cogs"></i>Hardware</a></li>
+            <li><a href="#software"><i class="fa fa-list"></i>Software</a></li>
+            <li><a href="#results"><i class="fa fa-envelope"></i>Results</a></l>
+            <li><a href="#conclusion"><i class="fa fa-list"></i>Conclusion</a></li>
+            <li><a href="#appendix"><i class="fa fa-envelope"></i>Appendix</a></l>
+
         </ul>
     </nav>
     <div class="templatemo-site-header">
@@ -34,11 +37,13 @@
 			<div class="row templatemo-position-relative">
 				<nav class="hidden-xs text-uppercase templatemo-nav">
 					<ul class="menu-holder">
-						<li class="active"><a href="#home">Home</a></li>
-						<li><a href="#about">Software</a></li>
-						<li><a href="#services">Design</a></li>
-						<li><a href="#products">Testing</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li class="active"><a href="#home">Introduction</a></li>
+						<li><a href="#overview">Overview</a></li>
+						<li><a href="#hardware">Hardware</a></li>
+						<li><a href="#products">Software</a></li>
+						<li><a href="#contact">Results</a></li>
+						<li><a href="#products">Conclusion</a></li>
+						<li><a href="#contact">Appendix</a></li>
 					</ul>
 				</nav>
 				<h1 class="templatemo-site-name">
@@ -58,11 +63,7 @@
 					<div class="templatemo-flex-center templatemo-black-bg text-center">
 						<div class="templatemo-home-image-container">
 							<img src="images/woosh.gif" alt="Home" class="templatemo-home-image">
-							<div class="templatemo-image-overlay">
-								<span class="fa fa-search templatemo-search-icon"></span>
-								<p class="text-uppercase templatemo-gold">The Stret</p>
-								<p class="text-uppercase">Sioutis mauris Justo</p>
-							</div>
+
 						</div>
 					</div>
 				</div>
@@ -70,25 +71,29 @@
 					<div class="templatemo-content-box templatemo-second-box">
 						<h2 class="templatemo-white">The Skywriter</h2>
 						<h3 class="templatemo-gold">a lightsaber that awakens the child in <br> any person any study</h3>
-						<p class="margin-top-30">The Brownie is free responsive template from <span class="blue">template</span><span class="green">mo</span>.com website. You can use this layout for any of your website. Please spread a word about us. Thank you. This template uses CSS Flexbox, which is supported on IE 10+ and recent versions of all other major browsers. Check out <a href="http://caniuse.com/#feat=flexbox" target="_blank">caniuse.com</a> for detailed browser support information.</p>
-						<a href="#" class="btn text-uppercase templatemo-btn templatemo-info-btn">Lorem Ipsum</a>
+						<p>Alexander Li (afl59)</p><p>Kranthi Kumar M (km853)</p>
+						<p class="margin-top-30">We created Skywriter because lightsabers are cool. Although we are fans, we are not passionate about the Star Wars franchise. However, we are passionate about the technology in Star Wars. For our final project, we wanted to replicate the futuristic lightsaber. And add a twist with persistence-of-vision. This project has been a great exercise in integrating peripherals, multi-threaded programming, and soldering. Lots and lots of soldering.</p>
+
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section id="about" class="templatemo-section">
+	<section id="overview" class="templatemo-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 					<div class="templatemo-content-box text-right">
 						<h2 class="templatemo-white">
-							<span class="templatemo-section-title">Meet Our</span>
-							<span class="templatemo-section-title">Creative <span class="templatemo-gold"><strong>Team</strong></span></span>
+							<span class="templatemo-section-title">High Level</span>
+							<span class="templatemo-gold"><strong>Design</strong></span>
 						</h2>
-						<p class="margin-top-30">Lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-	Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
-						<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Proin condimentum fermentum nunc. Suspendisse in orci enim.</p>
+						<p class="margin-top-30">Skywriter was designed on the exterior to replicate the appearance of the lightsabers in Star Wars movies. As a result, we cut PVC piping for the handle to be about 1 foot in length. We use about 3 feet of clear polycarbonate tubing and LEDs for the blade of the lightsaber.
+</p><p>To generate the sounds from the blade, we included amplifier and speaker components. The amplifier is soldered onto a project board inside the handle. The speaker sits at the base of the handle. To generate sounds, we run an ISR on the microcontroller performing direct digital synthesis.
+</p><p>To control the LEDs, in particular to generate persistence of vision, we include a gyroscope in our handle that enables us to measure the angle of the lightsaber. The measured angle is input into a mapping function that maps each LED to a coordinate on the image to be drawn.
+</p><p>Lucasfilm owns rights to Star Wars and associated intellectual property like the lightsaber. We will be careful to not create any copyright issues by selling or claiming ideas like the lightsaber as our own. Lucasfilm historically is supportive of the fan community creating projects based on the films
+</p><p>Note: There is a similar project found here by <a href="https://www.electromaker.io/project/view/pov-light-saber">bitluni</a>. We referenced their documentation while purchasing parts. The circuit design, software and integration are developed independently.</p>
+
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
@@ -144,7 +149,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="services" class="templatemo-section">
+	<section id="hardware" class="templatemo-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
@@ -180,11 +185,36 @@
 				<div class="col-lg-6 col-md-6">
 					<div class="templatemo-content-box templatemo-second-box">
 						<h2 class="templatemo-white">
-							<span class="templatemo-section-title">Powerful</span>
-							<span class="templatemo-section-title">Creative <span class="templatemo-gold"><strong>Design</strong></span></span>
+							<span class="templatemo-section-title">Hardware Design</span>
+							<span class="templatemo-gold">Blade</span>
 						</h2>
-						<p class="margin-top-30">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudinl
-	dorem quis bibendum auctor, nisi elit consequat ipsum, nec sagit. tis</p>
+						<p class="margin-top-30">Tube: The blade of our system consists of an LED strip inside of a polycarbonate tube. To emulate the proportions of the movie, we chose to make our blade 3 feet long. We chose to purchase a 3 foot long clear polycarbonate with ¾” diameter on the outside bought <a href"https://www.amazon.com/dp/B000OMJ50K/ref=biss_dp_t_asn">here.</a></p>
+						<p>LEDs: Inside of the tube, we inserted the <a href="https://www.adafruit.com/product/2241">Adafruit Dotstar Digital LED strip</a>. We chose the strip with 144 LEDs because it is closest in length to 3 feet. However, this strip is slightly longer than 3 feet. To deal with the excess, we roll the extra strip material into a tight ball and tape it at the top of the blade. </p>
+
+						<h2 class="templatemo-white">
+							<span class="templatemo-gold">Handle</span>
+						</h2>
+						<p class="margin-top-30">Pipe: The structure of our handle is a PVC pipe. The length of the handle is 1.5” PVC pipe purchased from home depot, cut to about 16 inches in length. The blade’s polycarbonate tube connects to the handle via a ¾”-1” PVC pipe adaptor. The adaptor is slightly too large and needs to be sanded. It is then pressure fit into the 1.5” PVC pipe. The polycarbonate tube is also pressure fit into the adaptor. Duct tape is used to increase friction and the tightness of the pressure fit.</p>
+						<p class="margin-top-30">Tape: The handle is stylized with various types of tape. First, the entire handle was wrapped with grey duct tape, giving it its predominant silver color. Next, we add black grips with blakc electrical tape. Lastly, we use bronze copper tape to accent the adaptor.</p>
+
+						<h2 class="templatemo-white">
+						<span class="templatemo-section-title">Interior <span class="templatemo-gold"><strong>Circuits</strong></span></span>
+						</h2>
+						<p class="margin-top-30">Within the handle is a microcontroller board and a solder board. These two boards are hot glued together.
+						Microcontroller: Our project uses the PIC32MX microcontroller. The board design is provided through the ECE 4760 course, and is referred to as <a href="http://people.ece.cornell.edu/land/courses/ece4760/PIC32/target_board.html">Sean Caroll's Little board (SECALB).</a></p>
+						<p class="margin-top-30">Solder Board: Adjacent to the microcontroller board is a solder board with most of the system’s peripherals. See the appendix for a schematic of the system</p>
+						<ul><a href="https://www.adafruit.com/product/987?gclid=Cj0KCQiA89zvBRDoARIsAOIePbAX0pCeGZr1tbbicmUZZkeSyxofDTjmfcLI5JrYnEvv4whp4a1ug1saAgC5EALw_wcB">Amplifier</a> - to amplify the audio for our system, we use Adafruit’s 3.7W Class D Amplifier.</ul>
+						<ul><a href="https://www.microchip.com/wwwproducts/en/MCP4822">DAC</a> - we use a digital to analog converter to convert the digital synthesis into analog values for the amplifier. We use the MCP4822.</ul>
+						<ul><a href="https://www.amazon.com/HiLetgo-MPU-6050-Accelerometer-Gyroscope-Converter/dp/B01DK83ZYQ/ref=sr_1_1_sspa?keywords=Adafruit+MPU6050&qid=1576564186&s=industrial&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyOU9ORlFDUjJKMzVKJmVuY3J5cHRlZElkPUEwOTk0MTg5UjlRTkhTWFdLQUc2JmVuY3J5cHRlZEFkSWQ9QTA3ODM3MDIyMUJJQzU1WjFJNTJZJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">MPU6050</a> - to measure the angle of the lightsaber, we use Adafruit’s Triple-Axis Accelerometer</ul>
+						<ul>Level shifter - we use the DM74L1S to convert the 3V signal from the microcontroller to 5V signals needed to control the LEDs.</ul>
+
+						<h2 class="templatemo-white">
+						<span class="templatemo-section-title">Exterior <span class="templatemo-gold"><strong>Components</strong></span></span>
+						</h2>
+						<p class="margin-top-30">Power: Our system has two portable charges, either of which can power the system. There is an internal power bank that we were given from a friend. It is a standard 5V 1A phone portable charger. The black cable is used to charge this internal powerbank. Next, there is also an external power supply. On the lightsaber, this looks like a lump on the hilt of the lightsaber. This is a larger 5V 2A portable charger. It is secured to the handle with duct tape. The white cable connects this portable charger to the system. Typically the internal power supply can only power the system for about a minute. The external power supply can power the system for over 30 minutes. </p>
+						<p class="margin-top-30">Speaker: The speaker is placed at the bottom of the lightsaber hilt. This allows the sound to emanate without obstruction. The handle’s interior also echoes sounds emanated from the speaker slightly. This creates a spooky effect. We chose to use a small 1 ohm speaker like the one found <a href="https://www.adafruit.com/product/1313">here.</a> The speaker is fixed to the rear of the handle with duct tape.</p>
+						<p class="margin-top-30">Switches and buttons: There is a silver switch near the bottom of the lightsaber hilt. This switch toggles the power supply used to power the system. There is a red button opposite of the silver switch. This button toggles the state operating state of the lightsaber: off, normal, square, star wars, party. The switch and button are fixed with hot glue.</p>
+
 					</div>
 				</div>
 			</div>
@@ -196,10 +226,9 @@
 				<div class="col-lg-6 col-md-6">
 					<div class="templatemo-content-box text-right">
 						<h2 class="templatemo-white">
-							<span class="templatemo-section-title">The Best</span>
-							<span class="templatemo-section-title">Quality <span class="templatemo-gold"><strong>Products</strong></span></span>
+							<span class="templatemo-section-title">Software <span class="templatemo-gold">Design</span></span>
 						</h2>
-						<p class="margin-top-30">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+						<p class="margin-top-30">The software design consists of three simple threads; ISR thread, I2C thread and the main control thread. The job of the ISR thread is to create a sine wave in an envelope to produce the sound for start up and the regular buzz noise that changes with movement. The I2C thread continuously scans for the values from the IMU unit and stores the values for the acceleration and gyroscope in the three axis and also computes the pitch. The last control thread is used to scan for the button press and toggle between modes and set the LED colours using SPI protocol as per the mode we are in.</p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
